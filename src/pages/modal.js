@@ -12,7 +12,7 @@ function ModalComponent() {
   return (
     <>
       <Button variant="primary" onClick={handleShow}>
-        Launch demo modal
+        Componente Modal 
       </Button>
 
       <Modal show={show} onHide={handleClose}>
