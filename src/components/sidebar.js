@@ -14,6 +14,9 @@ function Sidebar() {
       <NavLink to="/listUsers" className="nav-link" activeClassName="active">
         Listar Usuários
       </NavLink>
+      <NavLink to="/register" className="nav-link" activeClassName="active">
+        Cadastro Redux
+      </NavLink>
     </Nav>
   );
 }

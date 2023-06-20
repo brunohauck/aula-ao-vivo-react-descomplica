@@ -9,6 +9,7 @@ import About from './pages/about';
 import ListUsers from './pages/list-users';
 import ModalComponent from './pages/modal';
 import Sidebar from './components/sidebar';
+import Register from './pages/register';
 
 
 
@@ -19,7 +20,6 @@ function App() {
        <Header title={title} />
        <div className='container-fluid'>
         <div className='row'>
-       
           <BrowserRouter>
             <div className='col-md-3'>
               <Sidebar />
@@ -30,14 +30,12 @@ function App() {
                 <Route path='/about' element={<About />} />    
                 <Route path='/listUsers' element={<ListUsers />} /> 
                 <Route path='/modal' element={<ModalComponent />} />   
+                <Route path='/register' element={<Register />} />   
               </Routes>
             </div>
           </BrowserRouter>
-
         </div>
-
        </div>
-     
     </div>
   );
 }

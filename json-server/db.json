@@ -1,16 +1,22 @@
 {
-    "users": [
-      {
-        "name": "Bruno Hauck",
-        "email": "brunohauck@gmail.com",
-        "phone": "1234567890",
-        "id": 1
-      },
-      {
-        "name": "Raphael",
-        "email": "raphaelteste@gmail.com",
-        "phone": "1234567890",
-        "id": 2
-      }
-    ]
+  "users": [
+    {
+      "name": "Bruno Hauck",
+      "email": "brunohauck@gmail.com",
+      "phone": "1234567890",
+      "id": 1
+    },
+    {
+      "name": "Raphael",
+      "email": "raphaelteste@gmail.com",
+      "phone": "1234567890",
+      "id": 2
+    },
+    {
+      "name": "Bruno Hauck Ferreira",
+      "email": "brunohauck@gmail.com",
+      "phone": "3197734343",
+      "id": 3
+    }
+  ]
 }
